@@ -1,0 +1,10 @@
+<!--
+  ~ Copyright © 2022-2023, DCCTech
+  -->
+
+<resources>
+    <string name="app_name">TicTacToe</string>
+    <string name="action_settings">Settings</string>
+    <string name="btn_restart">Restart</string>
+    <string name="btn_tictactoekotlin">TicTacToeKotlin</string>
+</resources>

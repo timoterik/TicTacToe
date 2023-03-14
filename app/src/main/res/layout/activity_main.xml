@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright © 2022-2023, DCCTech
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="25dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:text="@string/btn_tictactoekotlin"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="serif"
+        android:paddingBottom="2dp"
+        android:textSize="30dp"
+        android:layout_gravity="center"/>
+
+    <io.dcctech.tictactoe.view.TicTacToeView
+        android:id="@+id/ticTacToeView"
+        android:layout_width="305dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/btnRestart"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:text="@string/btn_restart"
+        android:layout_margin="15dp"
+        android:layout_gravity="center"
+        android:background="@color/colorAccent"
+        android:textColorHighlight="@color/colorPrimaryDark"
+        />
+
+</LinearLayout>

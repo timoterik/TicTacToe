@@ -1,0 +1,7 @@
+<!--
+  ~ Copyright © 2022-2023, DCCTech
+  -->
+
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>
